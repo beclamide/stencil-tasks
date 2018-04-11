@@ -1,0 +1,17 @@
+import { render } from '@stencil/core/testing';
+import { COMPONENT_NAME_CAPPED } from './COMPONENT_NAME_DEFAULT';
+
+describe('COMPONENT_NAME_DEFAULT', () => {
+  it('should build', () => {
+    expect(new COMPONENT_NAME_CAPPED()).toBeTruthy();
+  });
+
+  describe('rendering', () => {
+    beforeEach(async () => {
+      await render({
+        components: [COMPONENT_NAME_CAPPED],
+        html: '<COMPONENT_NAME_DEFAULT></COMPONENT_NAME_DEFAULT>'
+      });
+    });
+  });
+});

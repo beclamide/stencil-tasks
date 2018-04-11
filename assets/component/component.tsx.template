@@ -1,0 +1,15 @@
+import { Component } from '@stencil/core';
+
+@Component({
+  tag: 'COMPONENT_NAME_DEFAULT',
+  styleUrl: 'COMPONENT_NAME_DEFAULT.scss'
+})
+export class COMPONENT_NAME_CAPPED {
+  render() {
+    return (
+      <div class="COMPONENT_NAME_DEFAULT">
+          COMPONENT_NAME_DEFAULT
+      </div>
+    );
+  }
+}

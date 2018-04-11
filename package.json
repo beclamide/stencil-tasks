@@ -1,0 +1,24 @@
+{
+  "name": "stencil-tasks",
+  "version": "0.0.1",
+  "description": "A collection of utility tasks that make StencilJS development easier",
+  "main": "dist/index.js",
+  "bin": {
+    "stencil-tasks": "./bin/stencil-tasks"
+  },
+  "scripts": {
+    "dev": "tsc -w -p .",
+    "build": "tsc -p .",
+    "test": "jest --runInBand",
+    "deploy": "npm run build && np"
+  },
+  "repository": "git+https://github.com/Beclamide/stencil-tasks.git",
+  "author": "Industrial Assets",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^9.6.4",
+    "@types/jest": "^22.2.2",
+    "jest": "^22.4.3",
+    "typescript": "^2.8.1"
+  }
+}

@@ -1,6 +1,6 @@
 # Stencil-Tasks
 
-A collection of utility tasks to make StencilJS development easier.
+A collection of utility tasks to make [StencilJS](https://stenciljs.com/) development easier.
 
 ## Installing
 Currently this is only designed to be included in [stencil-boilerplate](https://github.com/Beclamide/stenciljs-boilerplate) however I might publish it on NPM if there's interest.

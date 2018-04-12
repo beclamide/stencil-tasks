@@ -1,4 +1,4 @@
-@import '../../../node_modules/sass-mq/mq';
+@import 'NODE_MODULES_PATH/sass-mq/mq';
 
 .COMPONENT_NAME_DEFAULT {
     

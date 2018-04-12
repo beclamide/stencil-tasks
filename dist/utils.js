@@ -1,7 +1,5 @@
 "use strict";
-
 Object.defineProperty(exports, "__esModule", { value: true });
-
 function parseOptions(optionInfo, argv) {
     return Object.keys(optionInfo).reduce((options, key) => {
         let foundIndex = argv.indexOf(`--${key}`);
@@ -22,5 +20,4 @@ function parseOptions(optionInfo, argv) {
         return options;
     }, {});
 }
-
 exports.parseOptions = parseOptions;

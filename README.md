@@ -7,11 +7,8 @@ Currently this is only designed to be included in [stencil-boilerplate](https://
 
 ## Tasks
 
-### --create
-Creates a new component with SASS file and test.
+### --create component_name
+Creates a new component with SASS and test files. Where `component_name` is the name of the new component you would like to create.
 
-```
-$ npm run task --create component_name
-```
-
-Where `component_name` is the name of the new component you would like to create.
+### --route route_name
+Creates a new route component with SASS and test files. Where `route_name` is the name of the new route you would like to create. Currently, the route must be manually added to your App's router component.
